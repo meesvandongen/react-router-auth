@@ -7,11 +7,13 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "eslint": "^8.48.0",
     "prettier": "^3.0.3",
-    "tsconfig": "workspace:*",
     "turbo": "latest"
   },
   "packageManager": "pnpm@8.6.10",
-  "name": "react-router-auth"
+  "name": "react-router-auth",
+  "dependencies": {
+    "app1": "^1.0.0",
+    "ofetch": "^1.3.3"
+  }
 }
